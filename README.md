@@ -27,12 +27,12 @@ A simple PHP + MySQL project to manage product inventory with user login.
  🔐 Login Credentials
 
 - Admin  
-  Username: admin  
-  Password: admin
+  Username: ' admin '  
+  Password: ' admin123 '
 
 - User  
-  Username: staff  
-  Password: staff
+  Username: "Registered user"  
+  Password: "Registered password for the user"
 
  📁 Folder Structure
 
