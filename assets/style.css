@@ -1,0 +1,176 @@
+/* Base Reset and Fonts */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Login page background */
+.login-bg {
+  background: url('assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+/* All logged-in pages */
+.dashboard-bg {
+  background: url('assets/overlay.jpg') no-repeat center center;
+  background-size: 200px;
+  background-attachment: fixed;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Styles */
+.container, .login-box, .form-box {
+  max-width: 900px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.92);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1 {
+  font-size: 28px;
+  color: #343a40;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Buttons */
+a.btn, a.btn-logout {
+  display: inline-block;
+  margin: 10px 8px 10px 0;
+  padding: 10px 16px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+a.btn:hover {
+  background: #0056b3;
+}
+a.btn-logout {
+  background: #dc3545;
+}
+a.btn-logout:hover {
+  background: #bd2130;
+}
+
+/* Form Inputs */
+form input[type='text'],
+form input[type='password'],
+form input[type='number'],
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background: #eef3ff;
+}
+
+/* Form Buttons */
+form button {
+  padding: 10px 18px;
+  margin-top: 15px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+form button:hover {
+  background: #218838;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 15px;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px 10px;
+  text-align: center;
+}
+th {
+  background: #f1f1f1;
+}
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.low-stock {
+  background-color: #ffe0e0;
+}
+
+/* Small Action Buttons */
+a.btn-small {
+  background: #17a2b8;
+  padding: 6px 10px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  margin: 0 4px;
+  font-size: 13px;
+}
+a.btn-small.red {
+  background: #dc3545;
+}
+
+/* Login Form Specific */
+.login-container {
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  width: 350px;
+  max-width: 90%;
+}
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+}
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background: #28a745;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.login-box button:hover {
+  background: #218838;
+}
+.login-box .error {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
